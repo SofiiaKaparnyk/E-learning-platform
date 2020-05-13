@@ -1,0 +1,22 @@
+.env
+.pytest_cache/
+
+# Other
+venv/
+*.sqlite3
+*.db
+*.mo
+.cache/
+media/
+*.log
+*.log.*
+.idea
+
+courses/migrations/__pycache__/
+students/migrations/__pycache__/
+courses/__pycache__/
+students/__pycache__/
+educa/__pycache__/
+courses/templatetags/__pycache__/
+
+
