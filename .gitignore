@@ -18,5 +18,6 @@ courses/__pycache__/
 students/__pycache__/
 educa/__pycache__/
 courses/templatetags/__pycache__/
+courses/api/__pycache__/
 
 

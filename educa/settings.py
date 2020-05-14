@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     # third party apps
     'embed_video',
     'memcache_status',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
@@ -138,4 +139,13 @@ CACHES = {
         'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',
         'LOCATION': '127.0.0.1:11211',
     }
+}
+
+
+# drf permissions settings
+REST_FRAMEWORK = {
+    'DEFAULT_PERMISSION_CLASSES':
+        [
+            'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
+        ]
 }
